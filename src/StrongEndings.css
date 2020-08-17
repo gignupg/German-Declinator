@@ -1,0 +1,52 @@
+#strong-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "r1 s e e"
+        "n1 s e e"
+        "m m r2 n2";        
+    border: var(--my-border);
+    grid-column: 2 / 6;
+    grid-row: 2 / 5;
+    --my-sr-color: rgb(118, 230, 118);
+    --my-sn-color: rgb(144, 223, 144);
+}
+.strong-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--normal-size)
+}
+.strong-items:hover {
+    font-size: var(--hover-size);
+    cursor: var(--hover-cursor);
+}
+#sr1-field {
+    grid-area: r1;
+    background-color: var(--my-sr-color);
+}
+#ss-field {
+    grid-area: s;
+    background-color: rgb(164, 236, 96);
+}
+#se-field {
+    grid-area: e;
+    background-color: rgb(130, 248, 136);
+}
+#sn1-field {
+    grid-area: n1;
+    background-color: var(--my-sn-color);
+}
+#sm-field {
+    grid-area: m;
+    background-color: rgb(139, 230, 79);
+}
+#sr2-field {
+    grid-area: r2;
+    background-color: var(--my-sr-color);
+}
+#sn2-field {
+    grid-area: n2;
+    background-color: var(--my-sn-color);
+}

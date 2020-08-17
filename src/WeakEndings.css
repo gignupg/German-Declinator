@@ -1,0 +1,49 @@
+#weak-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "e1 e2 e2 n3"
+        "n1 e2 e2 n3"
+        "n1 n2 n2 n3";        
+    border: var(--my-border);
+    grid-column: 2 / 6;
+    grid-row: 2 / 5;
+    --my-e-color: rgb(154, 154, 253);
+    --my-n-color: rgb(148, 197, 236);
+}
+.weak-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--normal-size);
+}
+.weak-items:hover {
+    font-size: var(--hover-size);
+    cursor: var(--hover-cursor);
+}
+#we1-field {
+    grid-area: e1;
+    background-color: var(--my-e-color);
+}
+#we2-field {
+    grid-area: e2;
+    background-color: var(--my-e-color);
+}
+#wn1-field {
+    grid-area: n1;
+    background-color: var(--my-n-color);
+}
+#wn2-field {
+    grid-area: n2;
+    background-color: var(--my-n-color);
+}
+#wn3-field {
+    grid-area: n3;
+    background-color: var(--my-n-color);
+}
+#wn:hover{
+    cursor: pointer;
+    font-size: 28px;
+    transform: scale(1.1);
+}

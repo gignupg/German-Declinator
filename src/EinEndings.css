@@ -1,0 +1,44 @@
+#ein-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "O1 O1 S3 S3"
+        "S1 O2 S3 S3"
+        "S1 S2 S3 S3";        
+    border: var(--my-border);
+    grid-column: 2 / 6;
+    grid-row: 2 / 5;
+    --my-O-color: rgb(209, 208, 208);
+    --my-S-color: rgb(131, 224, 131);
+}
+.ein-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--normal-size);
+}
+.ein-items:hover {
+    font-size: var(--hover-size);
+    cursor: var(--hover-cursor);
+}
+#O1-field {
+    grid-area: O1;
+    background-color: var(--my-O-color);
+}
+#O2-field {
+    grid-area: O2;
+    background-color: var(--my-O-color);
+}
+#S1-field {
+    grid-area: S1;
+    background-color: var(--my-S-color);
+}
+#S2-field {
+    grid-area: S2;
+    background-color: var(--my-S-color);
+}
+#S3-field {
+    grid-area: S3;
+    background-color: var(--my-S-color);
+}
