@@ -14,7 +14,7 @@ The German Declinator is a helpful tool designed to assist learners in finding t
 
 2. **Word Selection:** Select the type of word you want to declinate.
 
-3. **Select Ending:** Based on gender and case, select the correct ending.
+3. **Ending Selection:** Based on gender and case, select the correct ending.
 
 4. **Repeat:** Repeat this process until you've determined all endings.
 
