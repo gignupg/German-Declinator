@@ -10,15 +10,13 @@ The German Declinator is a helpful tool designed to assist learners in finding t
 
 ## How to Use
 
-1. **Visit [germandeclinator.online](https://germandeclinator.online):** Access the tool directly by visiting the hosted website.
+1. **Visit the Website:** Open [germandeclinator.online](https://germandeclinator.online) in your browser.
 
-2. **Input:** Enter the base form of the German word in the designated input field.
+2. **Word Selection:** Select the type of word you want to declinate.
 
-3. **Select Gender:** Choose the gender of the noun (masculine, feminine, or neuter).
+3. **Select Ending:** Based on gender and case, select the correct ending.
 
-4. **Case Selection:** Specify the grammatical case (nominative, accusative, dative, or genitive).
-
-5. **Get Declination:** Click the "Decline" button to generate the correct declination for the entered word based on the selected gender and case.
+4. **Repeat:** Repeat this process until you've determined all endings.
 
 ## Contributing
 
